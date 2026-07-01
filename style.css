@@ -1,0 +1,106 @@
+header,
+footer{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header{
+  margin-bottom: 32px;
+}
+
+footer{
+  margin-top: 40px;
+  color: #666;
+  font-size: 14px;
+}
+
+body{
+  font-family: sans-serif;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 24px;
+  
+}
+
+h1{
+  color: darkblue;
+}
+
+h2{
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}
+
+section{
+  margin-bottom: 32px;
+}
+
+.card{
+  background-color: #f8f8f8;
+  border: 1px sokid #ddd;
+  border-radius: 12px;
+  padding:24px;
+  margin-bottom:24px;
+}
+
+a{
+  color: royalblue;
+}
+
+img{
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+form{
+  max-width: 600px;
+}
+
+form div{
+  margin-bottom: 16px;
+}
+
+label{
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+textarea{
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+textarea{
+  height: 120px;
+}
+
+button{
+  padding: 10px 20px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: black;
+}
+
+select{
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 900px;
+  margin:0 auto;
+}
+

@@ -1,0 +1,194 @@
+/* 基本設定 */
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #222;
+  background-color: #fff;
+}
+
+/* レイアウト*/
+
+header,
+main,
+footer{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+header{
+  padding-top: 40px;
+  margin-bottom: 32px;
+}
+
+footer{
+  margin-top: 40px;
+  padding-bottom: 40px;
+  color: #666;
+  font-size: 14px;
+}
+
+/* カード*/
+
+.card{
+  background-color: #f0f7ff;
+  border-radius: 24px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+/* 見出し・文章*/
+
+h1 {
+  color: darkblue;
+  margin-top: 0;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+
+h3 {
+  margin-bottom: 8px;
+}
+
+/* 画像*/
+
+img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+/* リンク*/
+
+a {
+  color: royalblue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* フォーム */
+
+form {
+  max-width: 600px;
+}
+
+form div {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.profile-layout {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.profile-layout img {
+  width: 220px;
+  max-width: 100%;
+}
+
+.profile-text {
+  flex: 1;
+}
+
+.site-nav {
+  margin-top: 24px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list a {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {   /* 以下のCSSを画面幅が768px以下の時適用 */
+  .nav-list {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .profile-layout {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-layout img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  header {
+    padding-top: 24px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}

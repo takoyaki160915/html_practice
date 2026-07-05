@@ -161,6 +161,24 @@ button:hover {
   text-decoration: underline;
 }
 
+.button-link {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 12px 24px;
+  background-color: darkblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button-link:hover {
+  color:#222;
+  background-color: rgb(111, 235, 252);
+  transform: translateY(-2px);
+}
+
 @media screen and (max-width: 768px) {   /* 以下のCSSを画面幅が768px以下の時適用 */
   .nav-list {
     flex-direction: column;
@@ -191,4 +209,10 @@ button:hover {
   h2 {
     font-size: 22px;
   }
+
+  .button-link {
+    width: 100%;
+    text-align: center;
+  }
+
 }
